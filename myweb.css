@@ -1,0 +1,192 @@
+body{	
+		background:linear-gradient(125deg,rgba(255, 229, 47, 0.5),rgba(255, 120, 233, 0.5)),url(topbody.png);/*オーバーレイ*/
+		margin-left:auto;			/*中央に表示*/
+	margin-right:auto;}
+
+h1{	font-size: 35pt;
+	font-family:'HG創英角ﾎﾟｯﾌﾟ体';
+	
+	margin: 0px 30px 0px 30px;
+	text-align: center;
+	/*height:20%;*/
+	background-color: yellow;
+	box-shadow: 0px 10px 3px #aaaaaa;	/*//p89 シャドウ*/
+	
+	top:0;
+    box-sizing: border-box; /*線まで*/
+    width:1100pt;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px 10px 30px 10px;
+        
+
+}
+
+/*menyu*/h2{
+	
+    box-sizing: border-box; /*線まで*/
+	font-size:15pt;
+	text-align:center;
+	background-color: yellow;
+	color:blue;
+	font-family:"メイリオ";
+	padding:5px;
+	width:900pt;
+	position:relative;
+	top:20px;
+	display:block;			/*p203 中身全体を含む大きなブロック構成*/
+	margin-left:auto;
+	margin-right:auto;
+}
+         
+/*A*/h3{text-align:center;
+	font-size:11px;
+	display:block;
+	margin-left:auto;			/*中央に表示*/
+	margin-right:auto;
+    
+    width:900px;
+     }
+
+
+footer{ 	
+    position:relative;
+    color:blue;
+	font-size:8pt;
+	text-align:center;
+	top:50px;
+	
+    box-sizing: border-box; /*線まで*/
+    width:900pt;
+    background-color:yellow;
+    border:1px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+
+p{	font-size:11pt;
+	}
+
+/*tyumoku*/.tyumoku{	
+               font-size:13pt;
+		
+               color:red;
+		       text-align:left;}
+
+
+.bun{	
+	
+    box-sizing: border-box; /*線まで*/
+	background-color:#FFFFEE;
+	padding:30px;
+	/*text-align:left;*/
+	margin: 70px 0px 80px 0px;
+	display:block;			/*p203 中身全体を含む大きなブロック構成*/
+	width:900pt;
+	border:solid 1px #aaaaaa;	/*p79 枠線*/
+	margin-left:auto;			/*中央に表示*/
+	margin-right:auto;
+	z-index:4;
+		
+}
+
+h1 img{
+	width:90px;
+    position:relative;
+	/*position:absolute;*/
+	top:-10px;
+    float:left;
+    padding-left:20px;
+    vertical-align:20px;
+    
+	
+	
+}
+
+
+
+
+
+.gazou{
+    position:relative;
+    margin:20px;
+    text-align:end;
+}
+
+.kome{
+    position:relative;
+    padding:30px;
+    margin:20px;
+    top:20px;
+    line-height:1.5;
+    width:auto;
+    font-family:'メイリオ';
+    font-size:13pt;
+    border:solid 1px;
+    border-radius:20px; /*角を丸く*/
+    
+	margin: 70px 0px 80px 0px;
+    text-align:left;
+	display:block;			/*p203 中身全体を含む大きなブロック構成*/
+}
+
+.kome p{
+    line-height:1.5;
+    font-family:'メイリオ';
+    font-size:13pt;
+}
+
+
+.topback{
+    border:solid 1px;
+    background-color:coral;
+    position:relative;
+    top:10px;
+	display:block;			/*p203 中身全体を含む大きなブロック構成*/
+    border-radius:5px; /*角を丸く*/
+    font-family:'メイリオ';
+    padding:5px;
+    box-sizing: border-box; /*線まで*/
+    width:6em;
+    margin-left:auto;/*ボックスごと右揃え*/
+   background:linear-gradient(#ffe52f,#e66824);
+
+}
+
+.topback a{
+    font-weight:bold;   /*文字の太さ*/
+    text-decoration:none;/*下線無し*/
+}
+
+
+ul{
+    display:block;
+    list-style:none;
+    width:618px; /*liが3個分の大きさ*/
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+
+#nav li{
+    width:200px;
+    text-align:center;
+    background-color:crimson;
+    float:left;
+    margin:3px;
+    padding:20px;
+    
+    box-sizing: border-box; /*線まで*/
+    
+}
+
+#nav li a{
+    text-decoration:none;
+    color:azure;
+    font-weight:bold;
+    
+}
+
+
+
